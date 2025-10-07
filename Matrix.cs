@@ -14,10 +14,20 @@ namespace NeuralNetwork
             matrixSize = new KeyValuePair<int, int>(data.GetLength(0), data.GetLength(1));
         }
 
-        public Matrix2d(int rows, int Columns)
+        public Matrix2d(int rows, int columns)
         {
-            data = new T[rows, Columns];
-            matrixSize = new KeyValuePair<int, int>(rows, Columns);
+            data = new T[rows, columns];
+            matrixSize = new KeyValuePair<int, int>(rows, columns);
+        }
+        public Matrix2d(KeyValuePair<int, int> size)
+        {
+            data = new T[size.Key, size.Value];
+            matrixSize = size;
+        }
+
+        public Matrix2d<T> Copy()
+        {
+            return new Matrix2d<T> (data);
         }
 
         public static readonly Exception WrongMatrixSize = new InvalidOperationException("Matrix dimensions are incompatible.");
@@ -57,7 +67,7 @@ namespace NeuralNetwork
             if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
                 throw WrongMatrixSize;
 
-            Matrix2d<T> result = new Matrix2d<T>(matrix1.Rows, matrix1.Columns);
+            Matrix2d<T> result = new Matrix2d<T>(matrix1.MatrixSize);
             foreach (var (i, j, value) in matrix1.Elements())
                 result[i, j] = (T)((dynamic)value + (dynamic)matrix2[i, j]);
             return result;
@@ -65,7 +75,7 @@ namespace NeuralNetwork
 
         public Matrix2d<T> Transpose()
         {
-            Matrix2d<T> result = new Matrix2d<T>(Columns, Rows);
+            Matrix2d<T> result = new Matrix2d<T>(matrixSize);
             for (int i = 0; i < Rows; i++)
                 for (int j = 0; j < Columns; j++)
                     result[j, i] = data[i, j];
@@ -79,12 +89,17 @@ namespace NeuralNetwork
                     data[i, j] = func(data[i, j]);
         }
 
+        public void FillZero()
+        {
+            Operate((T val) => val = (T)Convert.ChangeType(0, typeof(T)));
+        }
+
         public static Matrix2d<T> OperateEach(Matrix2d<T> matrix1, Matrix2d<T> matrix2, Func<T, T, T> func)
         {
             if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
                 throw WrongMatrixSize;
 
-            Matrix2d<T> result = new Matrix2d<T>(matrix1.Rows, matrix1.Columns);
+            Matrix2d<T> result = new Matrix2d<T>(matrix1.MatrixSize);
             foreach (var (i, j, value) in matrix1.Elements())
                 result[i, j] = func(value, matrix2[i, j]);
 
