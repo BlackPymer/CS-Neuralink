@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NeuralNetwork.Operations
+﻿namespace NeuralNetwork.Operations
 {
-    abstract class SimpleOperation<T>: Operation<T>
+    abstract class SimpleOperation<T> : Operation<T>
     {
 
         public override Matrix2d<T> Forward(Matrix2d<T> input)
@@ -16,7 +9,8 @@ namespace NeuralNetwork.Operations
             Output = CalculateOutput(Input);
             return Output;
         }
-        public override Matrix2d<T> Backward(Matrix2d<T> dOutput) {
+        public override Matrix2d<T> Backward(Matrix2d<T> dOutput)
+        {
             return CalculateDerivative(dOutput);
         }
 

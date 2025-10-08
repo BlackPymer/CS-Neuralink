@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NeuralNetwork.Operations.SimpleOperations
 {
 
-    class FuncSimpleOperation<T>: SimpleOperation<T>
+    class FuncSimpleOperation<T> : SimpleOperation<T>
     {
         private readonly Func<Matrix2d<T>, Matrix2d<T>> _calculateOutput;
         private readonly Func<Matrix2d<T>, Matrix2d<T>> _calculateDerivative;
