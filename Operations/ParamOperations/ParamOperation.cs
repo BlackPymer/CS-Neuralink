@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 namespace NeuralNetwork.Operations
 {
     abstract class ParamOperation<T> : Operation<T>

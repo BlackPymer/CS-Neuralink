@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\simpleoperations\\funcsimpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\simpleoperations\\funcsimpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\simpleoperations\\simpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\simpleoperations\\simpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\simpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\simpleoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperations\\funcparamoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\funcparamoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FuncSimpleOperation.cs",
+              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperations\\FuncSimpleOperation.cs",
+              "RelativeDocumentMoniker": "Operations\\SimpleOperations\\FuncSimpleOperation.cs",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperations\\FuncSimpleOperation.cs",
+              "RelativeToolTip": "Operations\\SimpleOperations\\FuncSimpleOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T05:08:44.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleOperation.cs",
+              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperations\\SimpleOperation.cs",
+              "RelativeDocumentMoniker": "Operations\\SimpleOperations\\SimpleOperation.cs",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperations\\SimpleOperation.cs",
+              "RelativeToolTip": "Operations\\SimpleOperations\\SimpleOperation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:10:28.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncParamOperation.cs",
+              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\FuncParamOperation.cs",
+              "RelativeDocumentMoniker": "Operations\\ParamOperations\\FuncParamOperation.cs",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\FuncParamOperation.cs",
+              "RelativeToolTip": "Operations\\ParamOperations\\FuncParamOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T04:35:56.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ParamOperation.cs",
-              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperation.cs",
-              "RelativeDocumentMoniker": "Operations\\ParamOperation.cs",
-              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperation.cs",
-              "RelativeToolTip": "Operations\\ParamOperation.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wBsAAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\ParamOperation.cs",
+              "RelativeDocumentMoniker": "Operations\\ParamOperations\\ParamOperation.cs",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\ParamOperation.cs",
+              "RelativeToolTip": "Operations\\ParamOperations\\ParamOperation.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T16:40:47.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Operation.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\Operation.cs",
               "RelativeDocumentMoniker": "Operations\\Operation.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\Operation.cs",
               "RelativeToolTip": "Operations\\Operation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T16:16:25.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Matrix.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Matrix.cs",
               "RelativeDocumentMoniker": "Matrix.cs",
@@ -68,32 +115,20 @@
               "RelativeToolTip": "Matrix.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAA0wF0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:13:24.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:13:24.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SimpleOperation.cs",
-              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperation.cs",
-              "RelativeDocumentMoniker": "Operations\\SimpleOperation.cs",
-              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\SimpleOperation.cs",
-              "RelativeToolTip": "Operations\\SimpleOperation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:10:28.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:09:44.06Z"
+              "WhenOpened": "2025-09-30T15:09:44.06Z",
+              "EditorCaption": ""
             }
           ]
         }

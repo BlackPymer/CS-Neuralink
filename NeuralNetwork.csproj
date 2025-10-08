@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="Matrix.cs" />
     <Compile Include="Operations\Operation.cs" />
-    <Compile Include="Operations\ParamOperation.cs" />
-    <Compile Include="Operations\SimpleOperation.cs" />
+    <Compile Include="Operations\ParamOperations\FuncParamOperation.cs" />
+    <Compile Include="Operations\ParamOperations\ParamOperation.cs" />
+    <Compile Include="Operations\SimpleOperations\FuncSimpleOperation.cs" />
+    <Compile Include="Operations\SimpleOperations\SimpleOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
