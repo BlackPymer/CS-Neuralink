@@ -41,8 +41,8 @@ namespace NeuralNetwork.Operations
 
         public void ApplyGradients(double learningRate)
         {
-            DParam.Operate((T val) => val = (T)Convert.ChangeType((dynamic)val * learningRate, typeof(T)));
-            Param += DParam;
+            DParam.Operate(v => (T)((dynamic)v * learningRate));
+            Param -= DParam;
             DParam.FillZero();
         }
 

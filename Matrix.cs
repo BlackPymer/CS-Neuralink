@@ -27,8 +27,13 @@ namespace NeuralNetwork
 
         public Matrix2d<T> Copy()
         {
-            return new Matrix2d<T> (data);
+            var clone = new T[Rows, Columns];
+            for (int i = 0; i < Rows; i++)
+                for (int j = 0; j < Columns; j++)
+                    clone[i, j] = data[i, j];
+            return new Matrix2d<T>(clone);
         }
+
 
         public static readonly Exception WrongMatrixSize = new InvalidOperationException("Matrix dimensions are incompatible.");
 
@@ -72,15 +77,22 @@ namespace NeuralNetwork
                 result[i, j] = (T)((dynamic)value + (dynamic)matrix2[i, j]);
             return result;
         }
+        
+        public static Matrix2d<T> operator -(Matrix2d<T> matrix1, Matrix2d<T> matrix2)
+        {
+            matrix2.Operate((T val) => (T)((dynamic)val*-1));
+            return matrix1 + matrix2;
+        }
 
         public Matrix2d<T> Transpose()
         {
-            Matrix2d<T> result = new Matrix2d<T>(matrixSize);
+            Matrix2d<T> result = new Matrix2d<T>(Columns, Rows);
             for (int i = 0; i < Rows; i++)
                 for (int j = 0; j < Columns; j++)
                     result[j, i] = data[i, j];
             return result;
         }
+
 
         public void Operate(Func<T, T> func)
         {
@@ -94,6 +106,15 @@ namespace NeuralNetwork
             Operate((T val) => val = (T)Convert.ChangeType(0, typeof(T)));
         }
 
+        public void FillOnes()
+        {
+            Operate((T val) => val = (T)Convert.ChangeType(1, typeof(T)));
+        }
+
+        public void Fill(T value)
+        {
+            Operate((T val) => val = value);
+        }
         public static Matrix2d<T> OperateEach(Matrix2d<T> matrix1, Matrix2d<T> matrix2, Func<T, T, T> func)
         {
             if (matrix1.Rows != matrix2.Rows || matrix1.Columns != matrix2.Columns)
@@ -112,9 +133,9 @@ namespace NeuralNetwork
                 for (int j = 0; j < Columns; j++)
                     yield return (i, j, this[i, j]);
         }
+        private static readonly Random rnd = new Random();
         public void Random(double from, double to)
         {
-            Random rnd = new Random();
             Operate(val => (T)Convert.ChangeType(from + rnd.NextDouble() * (to - from), typeof(T)));
         }
 
