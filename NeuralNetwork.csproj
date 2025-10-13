@@ -44,10 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Matrix.cs" />
-    <Compile Include="Operations\Bias.cs" />
+    <Compile Include="Operations\ParamOperations\Bias.cs" />
     <Compile Include="Operations\Operation.cs" />
     <Compile Include="Operations\ParamOperations\FuncParamOperation.cs" />
     <Compile Include="Operations\ParamOperations\ParamOperation.cs" />
+    <Compile Include="Operations\ParamOperations\Weights.cs" />
     <Compile Include="Operations\SimpleOperations\FuncSimpleOperation.cs" />
     <Compile Include="Operations\SimpleOperations\SigmoidOperation.cs" />
     <Compile Include="Operations\SimpleOperations\SimpleOperation.cs" />
