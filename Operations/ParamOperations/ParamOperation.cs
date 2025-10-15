@@ -9,6 +9,8 @@ namespace NeuralNetwork.Operations
     /// <typeparam name="T">Numeric type used for computations (e.g., float, double).</typeparam>
     abstract class ParamOperation<T> : Operation<T>
     {
+        public readonly int InputSize;
+
         /// <summary>
         /// Learnable parameter matrix (e.g., weights or biases).
         /// </summary>
