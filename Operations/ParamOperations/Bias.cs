@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NeuralNetwork.Operations
+namespace NeuralNetwork.Operations.ParamOperations
 {
     /// <summary>
     /// Represents a bias operation in a neural network layer.
@@ -20,10 +20,13 @@ namespace NeuralNetwork.Operations
         /// <summary>
         /// Initializes the bias operation with a randomly generated parameter matrix.
         /// </summary>
-        /// <param name="param_size">Size of the bias matrix as (rows, columns).</param>
+        /// <param name="param_size">Size of the bias matrix as (1, columns).</param>
         /// <param name="from">Lower bound for random initialization.</param>
         /// <param name="to">Upper bound for random initialization.</param>
         public Bias(KeyValuePair<int, int> param_size, double from, double to) : base(param_size, from, to)
+        {
+        }
+        public Bias(int param_size, double from, double to) : base(new KeyValuePair<int,int>(1,param_size), from, to)
         {
         }
 

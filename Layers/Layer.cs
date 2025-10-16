@@ -10,21 +10,21 @@ namespace NeuralNetwork.Layers
 {
     class Layer<T>
     {
-        protected readonly int Size;
+        protected readonly int InputSize;
         protected readonly List<Operation<T>> operations;
 
         private KeyValuePair<int, int> _lastOutputSize;
 
-        public Layer(int layerSize, List<Operation<T>> operations)
+        public Layer(int inputSize, List<Operation<T>> operations)
         {
-            Size = layerSize;
+            InputSize = inputSize;
             this.operations = operations;
         }
 
         public virtual Matrix2d<T> ForwardPropogation(Matrix2d<T> propogation)
         {
-            if (propogation.Columns != Size)
-                throw new LayerWrongInputSize("Wrong input size. Given: " + propogation.Columns.ToString() + ". Expected: " + Size.ToString());
+            if (propogation.Columns != InputSize)
+                throw new LayerWrongInputSize("Wrong input size. Given: " + propogation.Columns.ToString() + ". Expected: " + InputSize.ToString());
             Matrix2d<T> output = propogation;
             try
             {

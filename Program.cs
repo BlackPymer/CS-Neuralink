@@ -19,14 +19,7 @@ namespace NeuralNetwork
             input.Random(-3, 3);
             Console.WriteLine(input.ToString());
 
-            List<Operation<double>> operations = new List<Operation<double>>
-            {
-                new Weights<double>(new KeyValuePair<int,int>(4,3), -1, 1),
-                new Bias<double>(new KeyValuePair<int,int>(1,3), -1, 1),
-                new SigmoidOperation<double>()
-            };
-
-            Layer<double> layer = new Layer<double>(4, operations);
+            Layer<double> layer = new LinearLayer<double>(4, 3);
             Matrix2d<double> output = layer.ForwardPropogation(input);
             Console.WriteLine(output.ToString());
             Matrix2d<double> grads = new Matrix2d<double>(1, 3);
