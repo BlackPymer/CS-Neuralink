@@ -1,4 +1,5 @@
-﻿using NeuralNetwork.Operations;
+﻿using NeuralNetwork.Layers;
+using NeuralNetwork.Operations;
 using NeuralNetwork.Operations.ParamOperations;
 using NeuralNetwork.Operations.SimpleOperations;
 using System;
@@ -18,24 +19,19 @@ namespace NeuralNetwork
             input.Random(-3, 3);
             Console.WriteLine(input.ToString());
 
-            Operation<double>[] operations = new Operation<double>[]
+            List<Operation<double>> operations = new List<Operation<double>>
             {
                 new Weights<double>(new KeyValuePair<int,int>(4,3), -1, 1),
                 new Bias<double>(new KeyValuePair<int,int>(1,3), -1, 1),
                 new SigmoidOperation<double>()
             };
 
-            Matrix2d<double>[] outputs = new Matrix2d<double>[3];
-            for (int i = 0; i < 3; i++)
-                outputs[i] = operations[i].Forward((i == 0) ? input : outputs[i - 1]);
-
-            Console.WriteLine(outputs[2].ToString());
-
-            Matrix2d<double>[] backwards = new Matrix2d<double>[3];
-            Matrix2d<double> loss_grad = new Matrix2d<double>(1, 3);
-            loss_grad.Random(0, 1);
-            for (int i = 2; i >= 0; i--)
-                backwards[i] = operations[i].Backward((i == 2) ?  loss_grad: backwards[i + 1]);
+            Layer<double> layer = new Layer<double>(4, operations);
+            Matrix2d<double> output = layer.ForwardPropogation(input);
+            Console.WriteLine(output.ToString());
+            Matrix2d<double> grads = new Matrix2d<double>(1, 3);
+            grads.Random(-1, 1);
+            layer.BackwardPropogation(grads, true);
         }
     }
 }
