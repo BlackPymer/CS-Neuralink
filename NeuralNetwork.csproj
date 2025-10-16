@@ -46,6 +46,7 @@
     <Compile Include="Layers\Exceptions.cs" />
     <Compile Include="Layers\Layer.cs" />
     <Compile Include="Layers\LinearLayer.cs" />
+    <Compile Include="Layers\SigmoidLayer.cs" />
     <Compile Include="Matrix.cs" />
     <Compile Include="Operations\ParamOperations\Bias.cs" />
     <Compile Include="Operations\Operation.cs" />
