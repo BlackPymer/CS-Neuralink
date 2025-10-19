@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System.Threading;
 
 namespace NeuralNetwork
@@ -237,15 +236,23 @@ namespace NeuralNetwork
         /// </summary>
         public override string ToString()
         {
-            string res="{\n";
-            for(int i = 0; i < Rows; i++)
+            string res = "{\n";
+            for (int i = 0; i < Rows; i++)
             {
                 res += "\t{ ";
                 for (int j = 0; j < Columns; j++)
                     res += data[i, j].ToString() + " ";
                 res += "}\n";
             }
-            return res+"}";
+            return res + "}";
+        }
+
+        public dynamic Sum()
+        {
+            dynamic result = 0;
+            foreach (var (i, j, value) in Elements())
+                result += data[i, j];
+            return result;
         }
     }
 }
