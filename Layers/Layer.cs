@@ -95,6 +95,17 @@ namespace NeuralNetwork.Layers
             return dOutput;
         }
 
+        /// <summary>
+        /// Applies gradients to Param Operations.
+        /// </summary>
+        /// <param name="learningRate">The strength of the gradients.</param>
+        public virtual void ApplyGradients(double learningRate)
+        {
+            foreach(Operation<T> operation in operations)
+                if(operation is ParamOperation<T> paramOperation)
+                    paramOperation.ApplyGradients(learningRate);
+        }
+
         public int? Size => LayerSize;
 
     }

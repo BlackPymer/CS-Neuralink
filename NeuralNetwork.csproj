@@ -50,6 +50,8 @@
     <Compile Include="Losses\Loss.cs" />
     <Compile Include="Losses\MeanSquaresError.cs" />
     <Compile Include="Matrix.cs" />
+    <Compile Include="NeuralNetwork\Exceptions.cs" />
+    <Compile Include="NeuralNetwork\NeuralNetwork.cs" />
     <Compile Include="Operations\ParamOperations\Bias.cs" />
     <Compile Include="Operations\Operation.cs" />
     <Compile Include="Operations\ParamOperations\FuncParamOperation.cs" />
