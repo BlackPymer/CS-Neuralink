@@ -23,6 +23,7 @@ namespace NeuralNetwork
 
             for (int j = 0; j < epoches; j++)
             {
+                double epochLoss = 0;
                 for (int i = 0; i < inputBatch.Count; i++)
                 {
                     Matrix2d<T> output = inputBatch[i];
@@ -32,12 +33,14 @@ namespace NeuralNetwork
                     Matrix2d<T> gradient = loss.CalculateLossGradient(output, outputBatch[i]);
                     for (int k = layers.Count - 1; k >= 0; k--)
                         gradient = layers[k].BackwardPropogation(gradient);
-
+                    foreach (var layer in layers) layer.ApplyGradients(learningRate);
                     if ((j + 1) % applyEvery == 0)
-                    {
-                        Console.WriteLine(loss.CalculateLoss(output, outputBatch[i]));
-                        foreach (var layer in layers) layer.ApplyGradients(learningRate);
-                    }
+                        epochLoss += loss.CalculateLoss(output, outputBatch[i]);
+                }
+                if ((j + 1) % applyEvery == 0)
+                {
+                    Console.WriteLine($"Epoch {j + 1}: Loss = {epochLoss / inputBatch.Count}");
+                   
                 }
             }
         }

@@ -77,7 +77,7 @@ namespace NeuralNetwork.Operations
         /// <returns>Gradient of the loss with respect to the input.</returns>
         public override Matrix2d<T> Backward(Matrix2d<T> dOutput)
         {
-            DParam += CalculateParamDeriv(Input, dOutput);
+            DParam =DParam + CalculateParamDeriv(Input, dOutput);
             return CalculateDerivative(dOutput);
         }
 
@@ -96,10 +96,10 @@ namespace NeuralNetwork.Operations
         /// <param name="learningRate">Learning rate used to scale the gradient update.</param>
         public void ApplyGradients(double learningRate)
         {
-            DParam.Operate(v => (T)((dynamic)v * learningRate));
-            Param -= DParam;
+            Param = Matrix2d<T>.OperateEach(Param,DParam,((param, dparam) => param - (dynamic)dparam * learningRate));
             DParam.FillZero();
         }
+
 
         /// <summary>
         /// Computes the output of the operation during the forward pass.
