@@ -56,10 +56,10 @@ namespace NeuralNetwork
                 new SigmoidLayer<double>(64, 4)
             }, new MSE<double>());
 
-            var trainBatch = GenerateBatch(128);
-            neuralNetwork.Train(trainBatch.Key, trainBatch.Value, 10000, 100);
+            var trainBatch = GenerateBatch(1024);
+            neuralNetwork.Train(trainBatch.Key, trainBatch.Value, 10000, 200);
 
-            var testBatch = GenerateBatch(100);
+            var testBatch = GenerateBatch(128);
             Console.WriteLine(neuralNetwork.Test(testBatch.Key, testBatch.Value));
 
 

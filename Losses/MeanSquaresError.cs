@@ -15,7 +15,7 @@ namespace NeuralNetwork.Losses
         }
         public override Matrix2d<T> CalculateLossGradient(Matrix2d<T> prediction, Matrix2d<T> correctResult)
         {
-            return Matrix2d<T>.OperateEach(prediction, correctResult, (T val1, T val2) => 2 * ((dynamic)val2 - val1));
+            return Matrix2d<T>.OperateEach(prediction, correctResult, (T val1, T val2) => 2 * ((dynamic)val1 - val2));
         }
     }
 }
