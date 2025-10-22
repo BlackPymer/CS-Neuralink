@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA1wD0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T07:57:47.349Z",
               "IsPinned": true,
@@ -100,8 +100,7 @@
               "RelativeToolTip": "NeuralNetwork\\NeuralNetwork.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAywCEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T08:54:14.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T08:54:14.854Z"
             },
             {
               "$type": "Document",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "Losses\\MeanSquaresError.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T08:15:26.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T08:15:26.975Z"
             },
             {
               "$type": "Document",
@@ -162,8 +160,7 @@
               "RelativeToolTip": "Operations\\ParamOperations\\Weights.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA5wEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T07:56:05.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:56:05.269Z"
             },
             {
               "$type": "Document",
@@ -211,8 +208,7 @@
               "RelativeToolTip": "Layers\\Layer.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAADwv2oAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:13:19.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T04:13:19.939Z"
             },
             {
               "$type": "Document",

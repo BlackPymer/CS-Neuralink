@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\losses\\meansquareserror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:losses\\meansquareserror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\neuralnetwork\\neuralnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:neuralnetwork\\neuralnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\losses\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:losses\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\neuralnetwork\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:neuralnetwork\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\sigmoidlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\sigmoidlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\linearlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\linearlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\paramoperations\\bias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\bias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\losses\\meansquareserror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:losses\\meansquareserror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\losses\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:losses\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\sigmoidlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\sigmoidlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|d:\\myprojects\\neuralnetworkcs\\neuralnetwork\\operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\weights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\layers\\linearlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:layers\\linearlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:operations\\paramoperations\\paramoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\neuralnetwork\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB90252D-C13C-4AA4-A9B9-825DC891AA20}|NeuralNetwork.csproj|solutionrelative:neuralnetwork\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,17 +62,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA0wD0AAAAtAAAAAAAAAA==",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T07:57:47.349Z",
               "IsPinned": true,
@@ -80,7 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "Weights.cs",
+              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\Weights.cs",
+              "RelativeDocumentMoniker": "Operations\\ParamOperations\\Weights.cs",
+              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\Weights.cs",
+              "RelativeToolTip": "Operations\\ParamOperations\\Weights.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:29:52.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ParamOperation.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\ParamOperation.cs",
               "RelativeDocumentMoniker": "Operations\\ParamOperations\\ParamOperation.cs",
@@ -92,82 +105,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NeuralNetwork.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\NeuralNetwork\\NeuralNetwork.cs",
               "RelativeDocumentMoniker": "NeuralNetwork\\NeuralNetwork.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\NeuralNetwork\\NeuralNetwork.cs",
               "RelativeToolTip": "NeuralNetwork\\NeuralNetwork.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAywCEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T08:54:14.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MeanSquaresError.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Losses\\MeanSquaresError.cs",
               "RelativeDocumentMoniker": "Losses\\MeanSquaresError.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Losses\\MeanSquaresError.cs",
               "RelativeToolTip": "Losses\\MeanSquaresError.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T08:15:26.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Loss.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Losses\\Loss.cs",
               "RelativeDocumentMoniker": "Losses\\Loss.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Losses\\Loss.cs",
               "RelativeToolTip": "Losses\\Loss.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T08:12:45.793Z"
+              "WhenOpened": "2025-10-19T08:12:45.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Operation.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\Operation.cs",
               "RelativeDocumentMoniker": "Operations\\Operation.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\Operation.cs",
               "RelativeToolTip": "Operations\\Operation.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T14:43:35.484Z"
+              "WhenOpened": "2025-10-16T14:43:35.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "SigmoidLayer.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\SigmoidLayer.cs",
               "RelativeDocumentMoniker": "Layers\\SigmoidLayer.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\SigmoidLayer.cs",
               "RelativeToolTip": "Layers\\SigmoidLayer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T08:11:36.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Weights.cs",
-              "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\Weights.cs",
-              "RelativeDocumentMoniker": "Operations\\ParamOperations\\Weights.cs",
-              "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\Weights.cs",
-              "RelativeToolTip": "Operations\\ParamOperations\\Weights.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T07:56:05.269Z",
+              "WhenOpened": "2025-10-16T08:11:36.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Bias.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Operations\\ParamOperations\\Bias.cs",
               "RelativeDocumentMoniker": "Operations\\ParamOperations\\Bias.cs",
@@ -175,7 +178,8 @@
               "RelativeToolTip": "Operations\\ParamOperations\\Bias.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAA9wBwAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T07:55:30.9Z"
+              "WhenOpened": "2025-10-16T07:55:30.9Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -185,13 +189,14 @@
               "RelativeDocumentMoniker": "Layers\\LinearLayer.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\LinearLayer.cs",
               "RelativeToolTip": "Layers\\LinearLayer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T07:49:10.942Z"
+              "WhenOpened": "2025-10-16T07:49:10.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\Exceptions.cs",
               "RelativeDocumentMoniker": "Layers\\Exceptions.cs",
@@ -199,24 +204,25 @@
               "RelativeToolTip": "Layers\\Exceptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:39:37.022Z"
+              "WhenOpened": "2025-10-15T04:39:37.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Layer.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\Layer.cs",
               "RelativeDocumentMoniker": "Layers\\Layer.cs",
               "ToolTip": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\Layers\\Layer.cs",
               "RelativeToolTip": "Layers\\Layer.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAADwv2oAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAE0AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T04:13:19.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "D:\\MyProjects\\NeuralNetworkCS\\NeuralNetwork\\NeuralNetwork\\Exceptions.cs",
               "RelativeDocumentMoniker": "NeuralNetwork\\Exceptions.cs",
